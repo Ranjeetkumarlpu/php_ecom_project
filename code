@@ -1,0 +1,129 @@
+
+
+
+<html>
+<head>
+ <script src="https://kit.fontawesome.com/f0c2fa4b9d.js" crossorigin="anonymous"></script>
+<style>
+body{margin:0px;
+	background-color:#ffcccc;}
+.header {border-bottom:1px solid grey;}
+*{box-sizing:border-box;}
+.column{float:left;
+		width:50%;
+        padding:5px;
+        height:40px;
+        background-color:#800000}
+.row:after{content:"";
+		   display:table;
+           clear:both}
+.headmenu a {display:inline-block;
+             padding:3px 30px;
+             text-decoration:none;
+             color:white;
+             font-family:verdana;}
+.sidemenu{background-color:red;
+		  color:white;
+          float:left;
+          width:15%;
+          height:100%}
+.sidemenu a {display:block;
+			 text-decoration:none;
+             color:white;
+             padding:13px 15px;
+             font-family:sans-serif;}
+.sidemenu a:hover{background-color:#cc0000;}
+.dashboard {margin-left:250px;
+			margin-right:40px;
+            margin-top:15px}
+.dropup {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  left: 228px;
+  top:-1px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropup-content a:hover {background-color: #cc0000;}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+</style>
+</head>
+<div class="header"><div class="row"><div class="column" style="font-size:24px;font-family:arial,sans-serif,oxygen;color:white">E-commerce Client Area DIGIONINJA</div><div class="column" style="text-align:right;font-size:20px"><div class="headmenu"><a href="#"><i class="fa-solid fa-earth-africa"></i> Visit Website</a><a href="#"><i class="fa-solid fa-house-user"></i> Home</a><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></div></div></div></div>
+<div class="sidemenu">
+<a href="#"><i class="fa-solid fa-house-chimney"></i>&nbsp&nbsp Dashboard</a>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-calendar-plus"></i>&nbsp&nbsp Category</a>
+<div class="dropup-content">
+    <a href="#">Add New Category</a>
+    <a href="#">All Category</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-cart-plus"></i>&nbsp&nbsp Products</a>
+<div class="dropup-content">
+    <a href="#">Add New Product</a>
+    <a href="#">All Products</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-ticket-simple"></i>&nbsp&nbsp Coupon codes</a>
+<div class="dropup-content">
+    <a href="#">Coupon Codes</a>
+    <a href="#">Generate Couopn Code</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-boxes-stacked"></i>&nbsp&nbsp Stocks</a>
+<div class="dropup-content">
+    <a href="#">Manage Stock</a>
+    <a href="#">Update Stock</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-money-bill-trend-up"></i>&nbsp&nbsp Sales</a>
+<div class="dropup-content">
+    <a href="#">View Chart</a>
+    <a href="#">Last 7 Months sales</a>
+    <a href="#">Last Month Sales</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-users"></i>&nbsp&nbsp Members</a>
+<div class="dropup-content">
+    <a href="#">All Members</a>
+    <a href="#">Add New Member</a>
+  </div>
+</div>
+<a href="#"><i class="fa-solid fa-bars"></i>&nbsp&nbsp Menus</a>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-fire"></i>&nbsp&nbsp Popups</a>
+<div class="dropup-content">
+    <a href="#">All popups</a>
+    <a href="#">Create New Popup</a>
+  </div>
+</div>
+<div class="dropup">
+<a href="#"><i class="fa-solid fa-envelopes-bulk"></i>&nbsp&nbsp Emails</a>
+<div class="dropup-content">
+    <a href="#">All Email Templates</a>
+    <a href="#">Create New Template</a>
+    <a href="#">Email ID's</a>
+  </div>
+</div><a href="#"><i class="fa-solid fa-magnifying-glass"></i>&nbsp&nbsp Explore</a></div>
